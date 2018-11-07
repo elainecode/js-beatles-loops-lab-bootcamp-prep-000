@@ -3,6 +3,7 @@
 function theBeatlesPlay(musc, instr){
   var arr = [];
   for(var i = 0; i < musc.length; i++){
+    for
     
   }
 }
