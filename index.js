@@ -20,15 +20,14 @@ function theBeatlesPlay(musc, instr){
 
  function johnLennonFacts(facts){
    var i = 0;
+   var arr =[];
    while( i < facts.length){
-     
-     
+     arr.push(facts[i] + "!!!")
+     i++;
    }
+   return arr;
  }
 
-Use a while loop to loop over the facts array and add `"!!!"` to the end of
-every fact. The function should return an array of strings with exclamation
-points.
 + Create a function `iLoveTheBeatles` which accepts a number as a parameter. The
 body of the function should create a variable that stores an empty array. Then,
 implement a do-while loop inside the function that adds `"I love the Beatles!"`
