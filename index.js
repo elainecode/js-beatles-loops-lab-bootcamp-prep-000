@@ -3,7 +3,7 @@
 function theBeatlesPlay(musc, instr){
   var arr = [];
   for(var i = 0; i < musc.length; i++){
-    var str = musc[i] + "plays the"
+    var str = musc[i] + "plays " + 
     
   }
 }
