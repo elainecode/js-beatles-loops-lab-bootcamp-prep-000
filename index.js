@@ -1,6 +1,12 @@
 // add solution here
 
-+ Create a function `theBeatlesPlay`, which accepts two parameters- an array of
+function theBeatlesPlay(musc, instr){
+  var arr = [];
+  for(var i = 0; i < musc.length; i++){
+    
+  }
+}
+  which accepts two parameters- an array of
 musicians and an array of instruments. The body of the function should create an
 empty array stored in a variable. The function should also contain a for loop
 which loops over the array of musicians. You'll want to be careful about what
